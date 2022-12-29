@@ -1,0 +1,5 @@
+To run simple_char_drv below are the steps mentioned:
+1. make
+2. sudo insmod simple_char_drv.ko
+3. gcc mmap_user_space_prog.c
+4. sudo dmesg  -w  (to check the logs)
